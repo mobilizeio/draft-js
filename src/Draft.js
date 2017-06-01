@@ -19,8 +19,6 @@ const ContentBlock = require('ContentBlock');
 const ContentState = require('ContentState');
 const DefaultDraftBlockRenderMap = require('DefaultDraftBlockRenderMap');
 const DefaultDraftInlineStyle = require('DefaultDraftInlineStyle');
-const DraftEditor = require('DraftEditor.react');
-const DraftEditorBlock = require('DraftEditorBlock.react');
 const DraftEntity = require('DraftEntity');
 const DraftModifier = require('DraftModifier');
 const DraftEntityInstance = require('DraftEntityInstance');
@@ -38,10 +36,7 @@ const getDefaultKeyBinding = require('getDefaultKeyBinding');
 const getVisibleSelectionRect = require('getVisibleSelectionRect');
 
 const DraftPublic = {
-  Editor: DraftEditor,
-  EditorBlock: DraftEditorBlock,
   EditorState,
-
   CompositeDecorator: CompositeDraftDecorator,
   Entity: DraftEntity,
   EntityInstance: DraftEntityInstance,
